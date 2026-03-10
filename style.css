@@ -1,0 +1,24 @@
+button{
+    transition: 300ms;
+}
+
+button:hover{
+    opacity: 30%;
+    background-color: red;
+    padding: 4px;
+}
+/* Example 1 */
+P::before{
+    content: "Hey my name is ";
+}
+
+/* Example 2 */
+p::after{
+    content: "Burgos";
+    background: rgb(0, 255, 234);
+    margin: 8px;
+}
+    
+
+
+
